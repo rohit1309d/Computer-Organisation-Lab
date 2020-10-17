@@ -11,45 +11,31 @@ module alu_4bit_tb;
     reg cin;
     reg [3:0] s;
     reg m;
-    //wire cout, p, g;
+    wire cout, p, g;
     wire [3:0] f;
-    alu_4bit a1(a,b,cin,m,s,cout,f);
+  alu_4bit a1(a,b,cin,m,s,cout,f, p, g);
+
+    //inputs are taken in 2's complement form and printed in 2's complement form 
+
     initial
     begin
         $display("Output for different selection inputs when m=0");
         a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b0000; m=1'b0;
-        $monitor("A=%b,B=%b,cin=%b,s=%b,F=%b,Cn+4=%b",a,b,cin,s,f,cout);
+      $monitor("A=%b,B=%b,cin=%b,s=%b,F=%b,Cn+4=%b, p=%b, g=%b",a,b,cin,s,f,cout, p, g);
         #20 a=4'b0010; b=4'b0101; cin = 1'b1; s=4'b0001; m=1'b0;
-        $monitor("A=%b,B=%b,cin=%b,s=%b,F=%b,Cn+4=%b",a,b,cin,s,f,cout);
         #20 a=4'b0010; b=4'b0011; cin = 1'b1; s=4'b0010; m=1'b0;
-        $monitor("A=%b,B=%b,cin=%b,s=%b,F=%b,Cn+4=%b",a,b,cin,s,f,cout);
         #20 a=4'b0010; b=4'b0101; cin = 1'b0; s=4'b0011; m=1'b0;
-        $monitor("A=%b,B=%b,cin=%b,s=%b,F=%b,Cn+4=%b",a,b,cin,s,f,cout);
         #20 a=4'b0010; b=4'b0101; cin = 1'b1; s=4'b0100; m=1'b0;
-        $monitor("A=%b,B=%b,cin=%b,s=%b,F=%b,Cn+4=%b",a,b,cin,s,f,cout);
-        #20 a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b0101; m=1'b1;
-        $monitor("A=%b,B=%b,cin=%b,s=%b,F=%b,Cn+4=%b",a,b,cin,s,f,cout);
-        #20 a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b0110; m=1'b1;
-        $monitor("A=%b,B=%b,cin=%b,s=%b,F=%b,Cn+4=%b",a,b,cin,s,f,cout);
-        #20 a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b0111; m=1'b1;
-        $monitor("A=%b,B=%b,cin=%b,s=%b,F=%b,Cn+4=%b",a,b,cin,s,f,cout);
-        #20 a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b1000; m=1'b1;
-        $monitor("A=%b,B=%b,cin=%b,s=%b,F=%b,Cn+4=%b",a,b,cin,s,f,cout);
-        #20 a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b1001; m=1'b1;
-        $monitor("A=%b,B=%b,cin=%b,s=%b,F=%b,Cn+4=%b",a,b,cin,s,f,cout);
-        #20 a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b1010; m=1'b1;
-        $monitor("A=%b,B=%b,cin=%b,s=%b,F=%b,Cn+4=%b",a,b,cin,s,f,cout);
-        #20 a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b1011; m=1'b1;
-        $monitor("A=%b,B=%b,cin=%b,s=%b,F=%b,Cn+4=%b",a,b,cin,s,f,cout);
-        #20 a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b1100; m=1'b1;
-        $monitor("A=%b,B=%b,cin=%b,s=%b,F=%b,Cn+4=%b",a,b,cin,s,f,cout);
-
+        #20 a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b0101; m=1'b0;
+        #20 a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b0110; m=1'b0;
+        #20 a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b0111; m=1'b0;
+        #20 a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b1000; m=1'b0;
+        #20 a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b1001; m=1'b0;
+        #20 a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b1010; m=1'b0;
+        #20 a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b1011; m=1'b0;
+        #20 a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b1100; m=1'b0;
         #20 $display("Output for different selection inputs when m=1");
         a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b0000; m=1'b1;
-        #20 $display("Output for different selection inputs when m=1");
-        a=4'b0010; b=4'b0001; cin = 1'b0; s=4'b0000; m=1'b1;
-        $monitor("A=%b,B=%b,cin=%b,s=%b,F=%b,Cn+4=%b",a,b,cin,s,f,cout);    
-        #20 a=4'b0010; b=4'b0101; cin = 1'b1; s=4'b0100; m=1'b1;
-        $monitor("A=%b,B=%b,cin=%b,s=%b,F=%b,Cn+4=%b",a,b,cin,s,f,cout);
+        #20 a=4'b0010; b=4'b0101; cin = 1'b0; s=4'b0100; m=1'b1;
     end
 endmodule
