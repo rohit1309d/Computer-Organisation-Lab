@@ -1,0 +1,17 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Assignment 4 
+// Project Name:gcd
+// Description: Group No 28
+// Roll no - 18CS10013, 18CS10024
+//////////////////////////////////////////////////////////////////////////////////
+
+module mux(
+    input sel,
+    input [31:0] in0, in1,
+	 output [31:0] mux_out
+    );
+	 
+assign mux_out = (sel==0) ? in0 : in1;
+
+endmodule

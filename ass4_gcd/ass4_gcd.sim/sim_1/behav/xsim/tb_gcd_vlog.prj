@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ass4_gcd.srcs/sources_1/imports/ass4_gcd/control.v" \
+"../../../../ass4_gcd.srcs/sources_1/imports/ass4_gcd/datapath.v" \
+"../../../../ass4_gcd.srcs/sources_1/imports/ass4_gcd/gcd.v" \
+"../../../../ass4_gcd.srcs/sources_1/imports/ass4_gcd/mux.v" \
+"../../../../ass4_gcd.srcs/sources_1/imports/ass4_gcd/reg_file.v" \
+"../../../../ass4_gcd.srcs/sim_1/imports/ass4_gcd/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

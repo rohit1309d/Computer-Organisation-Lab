@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Projects/ass5_bit_slice_alu/ass5_bit_slice_alu.srcs/sources_1/new/alu_16bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_16bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Projects/ass5_bit_slice_alu/ass5_bit_slice_alu.srcs/sources_1/new/alu_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Projects/ass5_bit_slice_alu/ass5_bit_slice_alu.srcs/sources_1/new/cla.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module carry_lookahead_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Projects/ass5_bit_slice_alu/ass5_bit_slice_alu.srcs/sim_1/new/alu_16bit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_16bit_tb

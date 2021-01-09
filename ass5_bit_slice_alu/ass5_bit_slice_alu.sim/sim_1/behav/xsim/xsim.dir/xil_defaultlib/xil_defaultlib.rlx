@@ -1,0 +1,8 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/Xilinx/Projects/ass5_bit_slice_alu/ass5_bit_slice_alu.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/Xilinx/Projects/ass5_bit_slice_alu/ass5_bit_slice_alu.srcs/sources_1/new/alu_16bit.v,1603707214,verilog,,D:/Xilinx/Projects/ass5_bit_slice_alu/ass5_bit_slice_alu.srcs/sources_1/new/alu_4bit.v,,alu_16bit,,,,,,,,
+D:/Xilinx/Projects/ass5_bit_slice_alu/ass5_bit_slice_alu.srcs/sources_1/new/alu_4bit.v,1602835804,verilog,,D:/Xilinx/Projects/ass5_bit_slice_alu/ass5_bit_slice_alu.srcs/sources_1/new/cla.v,,alu_4bit,,,,,,,,
+D:/Xilinx/Projects/ass5_bit_slice_alu/ass5_bit_slice_alu.srcs/sources_1/new/cla.v,1602835729,verilog,,D:/Xilinx/Projects/ass5_bit_slice_alu/ass5_bit_slice_alu.srcs/sim_1/new/alu_16bit_tb.v,,carry_lookahead_adder,,,,,,,,

@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ass3_right_shift_multiplier.srcs/sources_1/new/unsigned_seq_mult_RS.v" \
+"../../../../ass3_right_shift_multiplier.srcs/sim_1/new/unsigned_seq_mult_RS_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

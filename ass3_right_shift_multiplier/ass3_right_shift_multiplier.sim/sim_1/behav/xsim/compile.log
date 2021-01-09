@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Projects/ass3_right_shift_multiplier/ass3_right_shift_multiplier.srcs/sources_1/new/unsigned_seq_mult_RS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module unsigned_seq_mult_RS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Projects/ass3_right_shift_multiplier/ass3_right_shift_multiplier.srcs/sim_1/new/unsigned_seq_mult_RS_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module unsigned_seq_mult_RS_tb

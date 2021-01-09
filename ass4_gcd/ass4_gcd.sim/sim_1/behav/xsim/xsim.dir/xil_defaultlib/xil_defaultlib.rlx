@@ -1,0 +1,11 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/Xilinx/Projects/ass4_gcd/ass4_gcd.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/Xilinx/Projects/ass4_gcd/ass4_gcd.srcs/sim_1/imports/ass4_gcd/testbench.v,1601917842,verilog,,,,tb_gcd,,,,,,,,
+D:/Xilinx/Projects/ass4_gcd/ass4_gcd.srcs/sources_1/imports/ass4_gcd/control.v,1601918018,verilog,,D:/Xilinx/Projects/ass4_gcd/ass4_gcd.srcs/sources_1/imports/ass4_gcd/datapath.v,,control,,,,,,,,
+D:/Xilinx/Projects/ass4_gcd/ass4_gcd.srcs/sources_1/imports/ass4_gcd/datapath.v,1601917822,verilog,,D:/Xilinx/Projects/ass4_gcd/ass4_gcd.srcs/sources_1/imports/ass4_gcd/gcd.v,,datapath,,,,,,,,
+D:/Xilinx/Projects/ass4_gcd/ass4_gcd.srcs/sources_1/imports/ass4_gcd/gcd.v,1601917826,verilog,,D:/Xilinx/Projects/ass4_gcd/ass4_gcd.srcs/sources_1/imports/ass4_gcd/mux.v,,gcd,,,,,,,,
+D:/Xilinx/Projects/ass4_gcd/ass4_gcd.srcs/sources_1/imports/ass4_gcd/mux.v,1601917832,verilog,,D:/Xilinx/Projects/ass4_gcd/ass4_gcd.srcs/sources_1/imports/ass4_gcd/reg_file.v,,mux,,,,,,,,
+D:/Xilinx/Projects/ass4_gcd/ass4_gcd.srcs/sources_1/imports/ass4_gcd/reg_file.v,1601917838,verilog,,D:/Xilinx/Projects/ass4_gcd/ass4_gcd.srcs/sim_1/imports/ass4_gcd/testbench.v,,reg_file,,,,,,,,

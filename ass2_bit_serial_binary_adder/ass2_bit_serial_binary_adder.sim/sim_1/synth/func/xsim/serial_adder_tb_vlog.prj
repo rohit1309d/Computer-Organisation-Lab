@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"serial_adder_tb_func_synth.v" \
+"../../../../../ass2_bit_serial_binary_adder.srcs/sim_1/new/serial_adder_tb.v" \
+
+# Do not sort compile order
+nosort

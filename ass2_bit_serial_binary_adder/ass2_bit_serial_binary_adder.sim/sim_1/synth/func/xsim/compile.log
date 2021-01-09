@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Projects/ass2_bit_serial_binary_adder/ass2_bit_serial_binary_adder.sim/sim_1/synth/func/xsim/serial_adder_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_flipflop
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-311] analyzing module piso
+INFO: [VRFC 10-311] analyzing module piso_0
+INFO: [VRFC 10-311] analyzing module serial_adder
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Projects/ass2_bit_serial_binary_adder/ass2_bit_serial_binary_adder.srcs/sim_1/new/serial_adder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module serial_adder_tb

@@ -1,0 +1,3 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+$finish called at time : 215 ns : File "D:/Xilinx/Projects/ass3_right_shift_multiplier/ass3_right_shift_multiplier.srcs/sim_1/new/unsigned_seq_mult_RS_tb.v" Line 24

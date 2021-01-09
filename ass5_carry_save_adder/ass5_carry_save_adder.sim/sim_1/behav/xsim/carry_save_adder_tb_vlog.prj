@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ass5_carry_save_adder.srcs/sources_1/new/carry_look_ahead_20_bit.v" \
+"../../../../ass5_carry_save_adder.srcs/sources_1/new/carry_look_ahead_4bit.v" \
+"../../../../ass5_carry_save_adder.srcs/sources_1/new/carry_save_adder.v" \
+"../../../../ass5_carry_save_adder.srcs/sources_1/new/csa.v" \
+"../../../../ass5_carry_save_adder.srcs/sources_1/new/full_adder.v" \
+"../../../../ass5_carry_save_adder.srcs/sim_1/new/carry_save_adder_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

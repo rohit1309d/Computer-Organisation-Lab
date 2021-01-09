@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Sep 18 11:39:29 2020
+# Process ID: 15144
+# Current directory: D:/Xilinx/Projects/ass2_hybrid_binary_adder/ass2_hybrid_binary_adder.runs/synth_1
+# Command line: vivado.exe -log hybrid_adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hybrid_adder.tcl
+# Log file: D:/Xilinx/Projects/ass2_hybrid_binary_adder/ass2_hybrid_binary_adder.runs/synth_1/hybrid_adder.vds
+# Journal file: D:/Xilinx/Projects/ass2_hybrid_binary_adder/ass2_hybrid_binary_adder.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source hybrid_adder.tcl -notrace

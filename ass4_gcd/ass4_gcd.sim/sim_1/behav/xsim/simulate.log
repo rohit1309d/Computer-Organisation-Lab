@@ -1,0 +1,18 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+during reset
+during reset
+eq flag not set
+during reset
+gcd of (        36,         9) is          0
+during reset
+during reset
+next state is test
+eq flag not set
+update1
+eq flag not set
+update1
+eq flag not set
+update1
+eq_flag set
+gcd of (        36,         9) is          9

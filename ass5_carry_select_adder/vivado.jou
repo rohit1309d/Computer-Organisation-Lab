@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct 14 09:21:25 2020
+# Process ID: 8160
+# Current directory: D:/Xilinx/Projects/ass5_carry_select_adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16000 D:\Xilinx\Projects\ass5_carry_select_adder\ass5_carry_select_adder.xpr
+# Log file: D:/Xilinx/Projects/ass5_carry_select_adder/vivado.log
+# Journal file: D:/Xilinx/Projects/ass5_carry_select_adder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Xilinx/Projects/ass5_carry_select_adder/ass5_carry_select_adder.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source carry_select_adder_tb.tcl
+close_sim

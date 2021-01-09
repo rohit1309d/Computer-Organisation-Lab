@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Projects/ass4_twos_complement/ass4_twos_complement.srcs/sources_1/new/twos_complement.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module twos_complement
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'out' is not allowed [D:/Xilinx/Projects/ass4_twos_complement/ass4_twos_complement.srcs/sources_1/new/twos_complement.v:25]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Projects/ass4_twos_complement/ass4_twos_complement.srcs/sim_1/new/twos_complement_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module twos_complement_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Projects/ass4_twos_complement/ass4_twos_complement.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

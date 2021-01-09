@@ -1,0 +1,21 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+data_a = 00100010, data_b = 00001010, reset = 1, out=00000000
+data_a = 00100010, data_b = 00001010, reset = 0, out=00000000
+data_a = 00100010, data_b = 00001010, reset = 0, out=10000000
+data_a = 00100010, data_b = 00001010, reset = 0, out=11000000
+data_a = 00100010, data_b = 00001010, reset = 0, out=01100000
+data_a = 00100010, data_b = 00001010, reset = 0, out=10110000
+data_a = 00100010, data_b = 00001010, reset = 0, out=01011000
+data_a = 00100010, data_b = 00001010, reset = 0, out=00101100
+data_a = 00010100, data_b = 00010101, reset = 1, out=00000000
+data_a = 00010100, data_b = 00010101, reset = 0, out=00000000
+data_a = 00010100, data_b = 00010101, reset = 0, out=10000000
+data_a = 00010100, data_b = 00010101, reset = 0, out=01000000
+data_a = 00010100, data_b = 00010101, reset = 0, out=00100000
+data_a = 00010100, data_b = 00010101, reset = 0, out=10010000
+data_a = 00010100, data_b = 00010101, reset = 0, out=01001000
+data_a = 00010100, data_b = 00010101, reset = 0, out=10100100
+data_a = 00010100, data_b = 00010101, reset = 0, out=01010010
+data_a = 00010100, data_b = 00010101, reset = 0, out=00101001
+$finish called at time : 440 ns : File "D:/Xilinx/Projects/ass2_bit_serial_binary_adder/ass2_bit_serial_binary_adder.srcs/sim_1/new/serial_adder_tb.v" Line 39
